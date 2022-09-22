@@ -1,6 +1,4 @@
-# CA4023 - Natural Language Technologies - Assignment 2
-
-This repository contains all data and code relating to the second assignment for CA4023, Natural Language Technologies. The instructions for this assignment are available [here](CA4023_Assignment2.pdf).
+# Sentiment Analysis Model in Python
 
 In the [*polarity_predictor.ipynb*](polarity_predictor.ipynb) notebook, we have created a sentiment analysis model to classify movie reviews as either postive or negative. The original baseline system utilised a Bag-of-Words representation. We have designed a Bag-of-Bigrams and Bag-of-Trigrams implementation for the purpose of experimentation. There are various parameters associated with the model, which alter the structure of these features also, inlcuding:
 
