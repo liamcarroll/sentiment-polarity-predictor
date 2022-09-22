@@ -1,0 +1,71 @@
+,name,learning_model,feature,clip_counts,negation,remove_stopwords,lemmatise,additional_features,avg_cv_acc,rmse,min_acc,max_acc
+0,baseline-LR,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,False,False,False,False,0.866,0.021540659228538036,0.84,0.915
+1,param-exp-LR-1,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,True,False,True,True,0.8160000000000001,0.0238537208837531,0.775,0.86
+2,param-exp-LR-2,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,True,False,True,False,0.8160000000000001,0.0238537208837531,0.775,0.86
+3,param-exp-LR-3,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,True,False,False,True,0.812,0.020273134932713266,0.78,0.845
+4,param-exp-LR-4,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,True,False,False,False,0.796,0.021886068628239278,0.765,0.835
+5,param-exp-LR-5,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,False,False,True,True,0.8145,0.02631064423384571,0.775,0.86
+6,param-exp-LR-6,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,False,False,True,False,0.8145,0.02631064423384571,0.775,0.86
+7,param-exp-LR-7,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,False,False,False,True,0.8140000000000001,0.02130727575266248,0.78,0.845
+8,param-exp-LR-8,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,True,False,False,False,False,0.8140000000000001,0.02130727575266248,0.78,0.845
+9,param-exp-LR-9,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,False,True,False,True,True,0.7785,0.030417922348510273,0.73,0.82
+10,param-exp-LR-10,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,False,True,False,True,False,0.7785,0.030417922348510273,0.73,0.82
+11,param-exp-LR-11,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,False,True,False,False,True,0.7765,0.03612824379900025,0.705,0.825
+12,param-exp-LR-12,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,False,True,False,False,False,0.7685000000000001,0.039436658073422,0.7,0.825
+13,param-exp-LR-13,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)",unigram,False,False,False,True,True,0.7819999999999999,0.02249444375840399,0.745,0.815

@@ -1,0 +1,12 @@
+,name,learning_model,feature,clip_counts,negation,remove_stopwords,lemmatise,additional_features,avg_cv_acc,rmse,min_acc,max_acc
+0,baseline-RF,RandomForestClassifier(),unigram,True,False,False,False,False,0.818,0.0293428015022424,0.78,0.875
+1,param-exp-RF-1,RandomForestClassifier(),unigram,True,True,False,True,True,0.8160000000000001,0.0238537208837531,0.775,0.86
+2,param-exp-RF-2,RandomForestClassifier(),unigram,True,True,False,True,False,0.8160000000000001,0.0238537208837531,0.775,0.86
+3,param-exp-RF-3,RandomForestClassifier(),unigram,True,True,False,False,True,0.812,0.020273134932713266,0.78,0.845
+4,param-exp-RF-4,RandomForestClassifier(),unigram,True,True,False,False,False,0.796,0.021886068628239278,0.765,0.835
+5,param-exp-RF-5,RandomForestClassifier(),unigram,True,False,False,True,True,0.8145,0.02631064423384571,0.775,0.86
+6,param-exp-RF-6,RandomForestClassifier(),unigram,True,False,False,True,False,0.8145,0.02631064423384571,0.775,0.86
+7,param-exp-RF-7,RandomForestClassifier(),unigram,True,False,False,False,True,0.8140000000000001,0.02130727575266248,0.78,0.845
+8,param-exp-RF-8,RandomForestClassifier(),unigram,True,False,False,False,False,0.8140000000000001,0.02130727575266248,0.78,0.845
+9,param-exp-RF-9,RandomForestClassifier(),unigram,False,True,False,True,True,0.7785,0.030417922348510273,0.73,0.82
+10,param-exp-RF-10,RandomForestClassifier(),unigram,False,True,False,True,False,0.7785,0.030417922348510273,0.73,0.82
